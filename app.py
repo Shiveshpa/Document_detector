@@ -56,7 +56,7 @@ def get_gemini_response(system_prompt, image):
 
 st.set_page_config(page_title="Check your document?")
 
-st.header("Document detector enter some kind of government issued card ")
+st.header("Government ID card detector")
 system_prompt = """Please identify the type of card from the provided image. 
 Here are the criteria:
 
