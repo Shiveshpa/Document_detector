@@ -36,8 +36,8 @@ safety_settings = [
     },
 ]
 
-
-genai.configure(api_key=st.secrets("GOOGLE_API_KEY"))
+os.environ["GOOGLE_API_KEY"] == st.secrets["GOOGLE_API_KEY"])
+genai.configure(api_key=os.environ("GOOGLE_API_KEY"))
 # genai.configure(api_key='AIzaSyCik4UK646hpxLD5XugbOH6lPU48ngYCOE')
 ## Function to load OpenAI model and get respones
 
