@@ -1,7 +1,7 @@
 import streamlit as st
 from PIL import Image
 
-
+import os
 import google.generativeai as genai
 
 
