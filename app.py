@@ -54,9 +54,9 @@ def get_gemini_response(system_prompt, image):
 
 ##initialize our streamlit app
 
-st.set_page_config(page_title="Check your document ?")
+st.set_page_config(page_title="Check your document?")
 
-st.header("Document detector")
+st.header("Document detector enter some kind of government issued card ")
 system_prompt = """Please identify the type of card from the provided image. 
 Here are the criteria:
 
