@@ -36,7 +36,7 @@ safety_settings = [
     },
 ]
 
-# genai.configure(api_key='AIzaSyCik4UK646hpxLD5XugbOH6lPU48ngYCOE')
+
 ## Function to load OpenAI model and get respones
 
 def get_gemini_response(system_prompt, image):
