@@ -3,6 +3,8 @@ import easyocr
 import google.generativeai as genai
 import numpy as np
 
+# pip install easyocr use this to install easyocr
+
 MODEL_CONFIG = {
     "temperature": 0.5,
     "top_p": 1,
